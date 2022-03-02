@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	/* general set-up for page */
+	background-color: #ffffff;
+	font-family: 'Inconsolata', monospace;
+	color: #000000;
+	
+	
+}
+
+#wrapper{
+	/* code to fit page on screen */
+	background-color: #ffffff;
+	
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img{
+	display: none;
+}
+
+header{
+	/* set up for header banner */
+	background-color: #ffffff;
+	text-align: center;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	padding-top: 10px;
+	
+	height: 150px;
+	
+
+}
+
+h1{
+	/* header text set up */
+	color: #000000;
+	line-height: 150%;
+	
+}
+
+	.btn{
+		display: none;
+		
+	}
+
+nav{
+	display: none;
+}
+.topnav{
+	display: none;
+}
+
+main{
+	padding: 32px;
+	background-color: #ffffff;
+	line-height: 25px;
+	
+}
+main a{
+	text-decoration: none;
+	color: #000000;
+}
+main p{
+	text-indent: 15px;
+}
+
+table{
+	width: 90%;
+	margin: auto;
+	border-spacing: 0;	
+}
+
+table td{
+	text-align: center; 
+}
+table ul{
+	list-style: none;
+	text-align: left;
+}
+
+/*comparison table*/
+/* Style the table */
+.compare table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  border: 1px solid #ddd;
+}
+
+/* Style table headers and table data */
+.compare th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+.compare th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Zebra-striped table rows */
+.compare tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+/*end of comparison table*/
+
+
+footer{
+	clear: both;
+	background-color: #ffffff;
+	text-align: center;
+	color: #000000;
+	font-style: italic;
+	font-size: 10pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}

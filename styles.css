@@ -1,0 +1,532 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	/* general set-up for page */
+	background-color: #999999;
+	font-family: 'Inconsolata', monospace;
+	color: #0f0f0f;
+	
+	
+}
+
+#wrapper{
+	/* code to fit page on screen */
+	background-color: #e98074;
+	
+	min-width: 900px;
+	max-width: 1280px;
+	box-shadow: 2px 2px black;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img{
+	float:left;
+}
+
+header{
+	/* set up for header banner */
+	background-color: #e98074;
+	text-align: center;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	padding-top: 10px;
+	
+	height: 150px;
+	
+
+}
+
+h1{
+	/* header text set up */
+	color: #000000;
+	line-height: 150%;
+	
+}
+
+	.btn{
+		background-color: #ff6666;
+		border: none;
+		color: #000000;
+		padding: 12px 16px;
+		font-size: 16px;
+		cursor: pointer;
+		float: right;
+	}
+	.btn:hover{
+		background-color: #eae7dc;
+	}
+
+nav{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	
+	width: 226px;
+	
+	text-align: center; 
+	font-size: 20pt;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	display: block;
+	
+	float: left;
+	
+	
+}
+nav ul{
+	
+	padding-left: 0px;
+	list-style: none;
+	
+}
+
+nav a{
+	text-decoration: none;
+	display: block;
+	padding: 8px 16px;
+	color: #000000;
+	
+}
+
+nav a:hover{
+	background-color: #eae7dc;
+}
+.active{
+	background-color: #eae7dc;
+}
+.topnav{
+		font-family: 'Oswald', sans-serif;
+		font-weight: bold;
+		text-align: center; 
+		font-size: 20pt;
+		
+		overflow: hidden;
+		background-color: #ff6666;
+		position: relative;
+		
+		
+	}
+	.topnav #mylinks{
+		display: none;
+	}
+	.topnav a{
+		color: #000000;
+		padding: 8px 16px;
+		text-decoration: none;
+		font-size: 20pt;
+		display: none;
+	}
+	.topnav a.icon{
+		background: #ff6666;
+		display: none;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav a:hover{
+		background-color: #eae7dc;
+	}
+
+
+main{
+	margin-left: 226px;
+	padding: 32px;
+	background-color: #d8c3a5;
+	min-height: 330px;
+	line-height: 25px;
+	
+}
+main a{
+	text-decoration: none;
+}
+main a:link{
+	/* color of unvisited links */
+	color: #737171;
+}
+main a:visited {
+	/* color of visited links */
+	color: #737171;
+}
+main a:hover{
+	/* color of link while mouse is hovering */
+	color: #ffffff;
+}
+main p{
+	text-indent: 15px;
+}
+
+table{
+	width: 90%;
+	margin: auto;
+	border-spacing: 0;	
+}
+
+table td{
+	text-align: center; 
+}
+table ul{
+	list-style: none;
+	text-align: left;
+}
+
+
+/*comparison table*/
+/* Style the table */
+.compare table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  border: 1px solid #ddd;
+}
+
+/* Style table headers and table data */
+.compare th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+.compare th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Zebra-striped table rows */
+.compare tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+/*end of comparison table*/
+
+
+footer{
+	clear: both;
+	background-color: #e98074;
+	text-align: center;
+	color: #0f0f0f;
+	font-style: italic;
+	font-size: 10pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 1024px){
+	
+	body{
+		/* general set-up for page */ 
+		background-color: #999999;
+		font-family: 'Inconsolata', monospace;
+		color: #0f0f0f;
+		
+	}
+
+	#wrapper{
+		/* code to fit page on screen */
+		background-color: #e98074;
+
+		min-width: 768px;
+		max-width: 1024px;
+		box-shadow: 2px 2px black;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	img{
+		float:left;
+	}
+
+	header{
+		/* set up for header banner */ 
+		background-color: #e98074;
+		text-align: center;
+		color: #000000;
+		font-family: 'Oswald', sans-serif;
+		margin: 0;
+		padding-top: 10px;
+
+		height: 150px;
+
+
+	}
+
+	h1{
+		/* header text set up */
+		color: #000000;
+		line-height: 150%;
+
+	}
+
+		.btn{
+		background-color: #ff6666;
+		border: none;
+		color: #000000;
+		padding: 12px 16px;
+		font-size: 16px;
+		cursor: pointer;
+		float: right;
+	}
+	.btn:hover{
+		background-color: #eae7dc;
+	}
+	
+	nav{
+		font-family: 'Oswald', sans-serif;
+		font-weight: bold;
+
+		
+		text-align: center; 
+							
+		float: none;
+		width: auto;
+		padding-top: 0;
+		margin: 10px;
+		font-size: 15pt;
+
+
+	}
+	nav ul{
+		padding: 0;
+		margin: 0;
+		
+	}
+	nav li{
+		display: inline-block;
+	}
+	nav a{
+		
+		padding: 5px;
+		width: 100px;
+		font-weight: bold;
+		border-style: none;
+		
+
+	}
+	nav a:hover{
+		background-color: #eae7dc;
+	}
+	.active{
+		background-color: #eae7dc;
+	}
+	.topnav{
+		display: none;
+	}
+
+	main{
+		margin: 0;
+		padding: 32px;
+		background-color: #d8c3a5;
+		min-height: 330px;
+		line-height: 25px;
+
+	}
+	main a{
+	text-decoration: none;
+	}
+	main a:link{
+		/* color of unvisited links */
+		color: #737171;
+	}
+	main a:visited {
+		/* color of visited links */
+		color: #737171;
+	}
+	main a:hover{
+		/* color of link while mouse is hovering */
+		color: #ffffff;
+	}
+	main p{
+		text-indent: 15px;
+	}
+
+	table{
+		width: 90%;
+		margin: auto;
+		border-spacing: 0;	
+	}
+
+	table td{
+		text-align: center; 
+	}
+	table ul{
+		list-style: none;
+		text-align: left;
+	}
+
+
+	footer{
+		clear: both;
+		background-color: #e98074;
+		text-align: center;
+		color: #0f0f0f;
+		font-style: italic;
+		font-size: 10pt;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+}
+
+
+@media only screen and (max-width: 768px){
+	
+	#wrapper{
+		/* code to fit page on screen */
+		background-color: #e98074;
+
+		min-width: 50px;
+		max-width: 768px;
+		box-shadow: 2px 2px black;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	img{
+		display: none;
+	}
+
+	header{
+		/* set up for header banner */
+		background-color: #e98074;
+		text-align: center;
+		color: #000000;
+		font-family: 'Oswald', sans-serif;
+		margin: 0;
+		padding-top: 10px;
+
+		height: 150px;
+
+
+	}
+
+	h1{
+		/* header text set up */
+		color: #000000;
+		line-height: 150%;
+
+	}
+	
+	.btn{
+		background-color: #ff6666;
+		border: none;
+		color: #000000;
+		padding: 12px 16px;
+		font-size: 16px;
+		cursor: pointer;
+		float: right;
+		
+	}
+	.btn:hover{
+		background-color: #eae7dc;
+	}
+
+	nav{
+		display: none;
+
+	}
+
+	.active{
+		background-color: #eae7dc;
+	}
+	.topnav{
+		font-family: 'Oswald', sans-serif;
+		font-weight: bold;
+		text-align: center; 
+		font-size: 12pt;
+		
+		overflow: hidden;
+		background-color: #ff6666;
+		position: relative;
+		display: block;
+	}
+	.topnav #mylinks{
+		display: none;
+	}
+	.topnav a{
+		color: #000000;
+		padding: 8px 16px;
+		text-decoration: none;
+		font-size: 15pt;
+		display: block;
+	}
+	.topnav a.icon{
+		background: #ff6666;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav a:hover{
+		background-color: #eae7dc;
+	}
+
+	main{
+		font-size: 12pt;
+		padding: 16px;
+		background-color: #d8c3a5;
+		min-height: 330px;
+		line-height: 35px;
+		
+	}
+	main a{
+	text-decoration: none;
+	}
+	main a:link{
+		/* color of unvisited links */
+		color: #737171;
+	}
+	main a:visited {
+		/* color of visited links */
+		color: #737171;
+	}
+	main a:hover{
+		/* color of link while mouse is hovering */
+		color: #ffffff;
+	}
+	main p{
+		text-indent: 15px;
+	}
+
+	table{
+		width: 90%;
+		margin: auto;
+		border-spacing: 0;	
+	}
+
+	table td{
+		text-align: center; 
+	}
+	table ul{
+		list-style: none;
+		text-align: left;
+	}
+
+
+	footer{
+		clear: both;
+		background-color: #e98074;
+		text-align: center;
+		color: #0f0f0f;
+		font-style: italic;
+		font-size: 8pt;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+
+}
